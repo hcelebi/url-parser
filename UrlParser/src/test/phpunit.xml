@@ -2,6 +2,7 @@
     <testsuites>
         <testsuite name="urlParser">
             <file>UrlParserTest.php</file>
+            <file>SeleniumTest.php</file>
         </testsuite>
     </testsuites>
 </phpunit>

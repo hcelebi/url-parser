@@ -63,7 +63,7 @@ class UrlParserTest extends PHPUnit_Framework_TestCase
     {
         $urlParser = new UrlParser();
         $result = $urlParser->getHostname($data);
-        $this->assertEquals("www..cimri.com", $result);
+        $this->assertEquals("www.cimri.com", $result);
     }
 
 
