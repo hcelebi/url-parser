@@ -63,7 +63,7 @@ class UrlParserTest extends PHPUnit_Framework_TestCase
     {
         $urlParser = new UrlParser();
         $result = $urlParser->getHostname($data);
-        $this->assertEquals("www.cimri.com", $result);
+        $this->assertEquals("www..cimri.com", $result);
     }
 
 
@@ -74,7 +74,7 @@ class UrlParserTest extends PHPUnit_Framework_TestCase
     public function ShouldBeReturnedNotValidURLFormatException()
     {
         $urlParser = new UrlParser();
-        $urlParser->isValid("http/www.gittigidiyor.com");
+        $urlParser->isValid("http:/www.gittigidiyor.com");
     }
 
 
