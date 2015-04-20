@@ -1,0 +1,86 @@
+atlassian-ide-plugin.xml
+data/*
+local.php
+public/css/mobileweb-min.css
+public/js/mobileweb-min.js
+.sonar/*
+.buildpath
+.project
+.settings/org.eclipse.php.core.prefs
+
+# git-ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# Some content is used from https://github.com/github/gitignore
+
+# VI generated files
+.*.sw[a-z]
+*.un~
+Session.vim
+
+# IntelliJ Idea generated files
+*.iml
+*.ipr
+*.iws
+.idea
+*plugin.xml
+
+# Eclipse generated files
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*~.nib
+.classpath
+.settings/
+.loadpath
+.git/
+build/
+
+# Project generated files
+*.log
+*.patch
+*.ser
+logs/
+
+# Compression generated files
+*.zip
+*.gz
+*.tar
+*.rar
+*.7z
+
+# OS generated files
+*.pid
+*.swp
+*.tmp
+*.old
+*.backup
+*.diff
+*.DS_Store
+
+# Windows generated files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux generated files
+*~
+.directory
+
+# SVN generated files
+.svn
+
+# Sonar generated files
+.sonar/*
+
+# Grunt
+route-files.json
+node_modules/
+config/autoload/jsframework
+
+#composer
+composer.lock
+composer.phar
+/vendor

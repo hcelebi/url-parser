@@ -1,0 +1,14 @@
+{
+    "name" : "url-parser",
+    "autoload": {
+        "psr-4": {
+            "UrlParser\\": "UrlParser/src/UrlParser",
+            "Test\\": "UrlParser/src/test"
+        }
+    },
+
+	"require": 
+	{
+		"phpunit/phpunit": "4.8.*@dev"
+	}
+}
