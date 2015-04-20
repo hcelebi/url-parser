@@ -1,6 +1,6 @@
 <?php
 
-namespace UrlParser;
+namespace UrlParser\Exception;
 
 use PHPUnit_Framework_Exception;
 

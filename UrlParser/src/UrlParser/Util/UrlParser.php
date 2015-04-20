@@ -1,8 +1,8 @@
 <?php
 
-namespace UrlParser;
+namespace UrlParser\Util;
 
-use UrlParser\NotValidURLException;
+use UrlParser\Exception\NotValidURLException;
 
 class UrlParser
 {

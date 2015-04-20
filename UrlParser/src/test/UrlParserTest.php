@@ -2,10 +2,11 @@
 
 namespace Test;
 
-use UrlParser\UrlParser;
+use PHPUnit_Framework_TestCase;
+use UrlParser\Util\UrlParser;
 
-class UrlParserTest extends \PHPUnit_Framework_TestCase
-{ 
+class UrlParserTest extends PHPUnit_Framework_TestCase
+{
     private $uri;
 
     public function setUp()
@@ -68,12 +69,12 @@ class UrlParserTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @test
-     * @expectedException \UrlParser\NotValidURLException
+     * @expectedException \UrlParser\Exception\NotValidURLException
      */
     public function ShouldBeReturnedNotValidURLFormatException()
     {
         $urlParser = new UrlParser();
-        $urlParser->isValid("http:/www.gittigidiyor.com");
+        $urlParser->isValid("http/www.gittigidiyor.com");
     }
 
 
