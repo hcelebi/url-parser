@@ -5,7 +5,7 @@ namespace Test;
 use UrlParser\UrlParser;
 
 class UrlParserTest extends \PHPUnit_Framework_TestCase
-{
+{ 
     private $uri;
 
     public function setUp()
